@@ -7,7 +7,7 @@ public class GetMax {
      * @return the largest value in arr.
      */
     public int max(int[] arr){
-        int m = 0; // Max number
+        int m = -9999; // Max number
         for(int i = 0; i < arr.length; i++){
             if(arr[i] > m){
                 m = arr[i];
